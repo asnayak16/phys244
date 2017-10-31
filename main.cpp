@@ -2,7 +2,8 @@
   Last Update: 14th June, 2017
   -----------------------------------------------------------------------------
   Author: 		Prashant Singh (Marching Cube Implementation)
-  				Ganesh Ranganath Chandrasekar Iyer (Initial skeletal for input)
+  			Ganesh Ranganath Chandrasekar Iyer (Initial skeletal for input)
+			Ashwin Nayak	
   Objective: 	Implements the Marching Cube's Algorithm using OpenMP.
   Functions: 	input_parameter_initialization,
  				inputRead,releaseHostData
