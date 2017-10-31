@@ -1,7 +1,7 @@
 //*****************************************************************************
 //PHYS 244							main.cu	       				14th June 2017
 //-----------------------------------------------------------------------------
-//Author: Ganesh Ranganath Chandrasekar Iyer
+//Author: Ganesh Ranganath Chandrasekar Iyer, Ashwin Nayak, Prashant Singh
 //Objective: Implements the Marching Cube Algorithm using Nvidia's GP-GPU 
 //Funtions: StatusLog, input_parameter_initialization, inputRead, 
 //			marchingCubes,kernel,linearInterpolation, GetMemoryStatus
@@ -18,10 +18,10 @@ is based on Paul Bourke's article.
 
 For additional details refer: http://paulbourke.net/geometry/polygonise/
 
-Reference: Lorenson W.E. and Cline H.E., ‘Marching Cubes: A High-Resolution 3D 
-		   Surface Construction Algorithm’, Computer Graphics (SIGGRAPH Proceed
+Reference: Lorenson W.E. and Cline H.E., â€˜Marching Cubes: A High-Resolution 3D 
+		   Surface Construction Algorithmâ€™, Computer Graphics (SIGGRAPH Proceed
 		   ings), 1987, Vol 21-4, 163-169.
-		   Suh, J.W., Kim, Y., ‘Accelerating MATLAB with GPU Computing’, 2013.
+		   Suh, J.W., Kim, Y., â€˜Accelerating MATLAB with GPU Computingâ€™, 2013.
 ******************************************************************************/
 
 //-----------------------------------------------------------------------------
